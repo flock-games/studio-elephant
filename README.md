@@ -1,9 +1,15 @@
-# Sanity Clean Content Studio
+# White Elephant - Sanity
 
-Congratulations, you have now installed the Sanity Content Studio, an open-source real-time content editing environment connected to the Sanity backend.
+This project was built in 4(ish) hours for the [Learn With Jason Hackathon 10](https://www.learnwithjason.dev/blog/web-dev-challenge-hackathon-s1e10-workshop-woes).
 
-Now you can do the following things:
+The challenge was to build an app using [Sanity](https://www.sanity.io/) to help Santa in the busy Christmas season.
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+This is a very simple Sanity project based on the default Nuxt template. The primary changes are to specity the schema type I used in the hackathon.
+
+To use your own project, update `sanity.cli.ts` and `sanity.config.ts` with your own `projectId`.
+
+To run:
+
+> npm install
+
+> npm run dev
